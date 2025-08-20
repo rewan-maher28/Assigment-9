@@ -1,0 +1,36 @@
+body
+{
+    font-family: serif;
+    color: black;
+}
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+}
+p
+{
+    font-size: 35px;
+}
+button
+{ 
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: brown;
+    color: #fff;
+    transition: all 1s;
+}
+button:hover
+{
+    background-color: rgb(255, 203, 135);
+    color: black;
+    border-radius: 80px;
+}
+.max-width
+{
+    max-width: 800px;
+}
